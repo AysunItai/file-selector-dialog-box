@@ -1,0 +1,12 @@
+To open a file selector dialog box in response to
+ a button click using vanilla JavaScript, 
+ you can create an input element of type file, 
+ and then trigger its click() 
+method when the button is clicked.
+
+we add an event listener to the file-input element that listens for a change event.
+ When the user selects a file, the change event is fired, 
+and we can access the selected file(s) using the files property of the file-input element.
+
+
+https://app.copy.ai/projects/21805256?sidebar=tools&tool=chat&tab=results&text=
